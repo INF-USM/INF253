@@ -1,0 +1,8 @@
+(taylorSenoSimple 300 3.14);0.0015926529164871975
+(taylorSenoSimple 1 2.14);0.5066093333333335
+(taylorSenoSimple 0 20.3);20.3
+(taylorSenoSimple 5 3.14);0.0015926529164871975
+(taylorSenoSimple 2 1.57);1.0000035425842861
+(taylorSenoSimple 0 2.0);2.0
+(taylorSenoSimple 10 -1.57);-1.000000002577138
+(taylorSenoSimple 7 0.785);0.7071066633352504

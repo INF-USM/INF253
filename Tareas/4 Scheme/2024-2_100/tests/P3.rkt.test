@@ -1,0 +1,4 @@
+(evaluador (list (lambda (x) (+ x 1)) (lambda (x) (* x x)) (lambda (x) (- x 2))) '(2 5 7));'(7 24 36)
+(evaluador (list (lambda (x) (/ x 3.2)) (lambda (x) (+ (* x 2) x)) (lambda (x) (- x (* 5.40 (* x x))))) '(5 2 -7));'(-113.96484375000001 -58.875 -254.625)
+(evaluador '() '());'()
+(evaluador (list (lambda (x) (+ x 10)) (lambda (x) (- x 5))) '(1 2));'(6 7)

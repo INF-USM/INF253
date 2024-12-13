@@ -1,0 +1,14 @@
+(buscador '(1 2 3) 3);3
+(buscador '(ABC "ABC" 3.0 1234) "ABC");2
+(buscador '(ABC "ABC" 3.0 1234) 'ABC);1
+(buscador '(389 (2 4 5.0) (40 here 2)) '(40 here 2));3
+(buscador '() 'INF253);-1
+(buscador '(1 2 3 4 5) 3);3
+(buscador '(apple banana cherry) 'banana);2
+(buscador '(10 20 30 40) 50);-1
+(buscador '((a b) (c d) (e f)) '(c d));2
+(buscador '(1 2.0 3.5 4) 2);-1
+(buscador '("ABC" "DEF" "GHI") "DEF");2
+(buscador '(a b c d e f) 'g);-1
+(buscador '((1 2) 3 "text" #t) 3);2
+(buscador '() 'a);-1
